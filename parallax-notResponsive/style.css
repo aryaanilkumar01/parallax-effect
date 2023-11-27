@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+ 
+}
+
+
+.container {
+  text-align: center;
+  color: var(rgba(255, 255, 255, 0.238));
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./mirror.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+position: relative;
+ 
+}
+
+.hem{
+  padding-top: 130px;
+  top: 10px;
+}
+.card{
+  margin-left: 40px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+
+}
+
+p {
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: rgba(60, 113, 156, 0.523);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+  background-attachment: fixed;
+}
+.a1{
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: rgba(128, 128, 128, 0.448);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: 26px;
+  background-attachment: fixed;
+  box-shadow:  0 0 200px whitesmoke ,0 0 100px whitesmoke,0 0 200px whitesmoke;
+  animation: button 3s infinite linear;
+  
+}
+.a1:hover{box-shadow: 0 0 5px whitesmoke,0 0 25px whitesmoke;
+  animation: none;
+}
+
+.blank,
+.other {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
+}
+
+.second{
+  background-image:url(https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg);
+ background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  ;
+}
+.second1{
+  background-image:url(https://images.pexels.com/photos/109391/pexels-photo-109391.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.second3{
+  background-image:url(https://images.pexels.com/photos/1114896/pexels-photo-1114896.jpeg);
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1em;
+}
+
+.card > a {
+  margin-bottom: 2em;
+  
+}
+
+.item {
+  display: flex;
+  max-width: 320px;
+  background-color: rgba(255, 255, 255, 0.251);;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img {
+  width: 90%;
+  height: 200px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;;
+}
+
+.img-first {
+  background-image: url(https://imgs.search.brave.com/AI_aUXKXHTqLOl5KuBBasq5jFVwlK21YS6h-x2fEFa8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1Lzg2LzY4LzE5/LzM2MF9GXzU4NjY4/MTk3NF9nR3IwWDNL/U09mbFhWZGo0c2tO/TURlSmxWaTlmN2kw/Zi5qcGc);
+}
+.img-first2 {
+  background-image: url(https://images.pexels.com/photos/957039/hut-alpine-mountains-bavaria-957039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-first3 {
+  background-image: url(https://images.pexels.com/photos/5875902/pexels-photo-5875902.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.img-second {
+  background-image: url(https://images.pexels.com/photos/1552212/pexels-photo-1552212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-second2 {
+  background-image: url(https://images.pexels.com/photos/40513/forest-moss-norway-40513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.img-second3 {
+  background-image: url(https://images.pexels.com/photos/5875919/pexels-photo-5875919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+
+.img-third {
+  background-image: url(https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-third2 {
+  background-image: url(https://images.pexels.com/photos/16672664/pexels-photo-16672664/free-photo-of-a-sunrise-over-a-valley-with-fog-and-hills.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-third3 {
+  background-image: url(https://images.pexels.com/photos/699624/forest-autumn-orange-colorful-699624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.second{
+  flex-direction: row;
+  gap: 1.6em;
+}
+.second1{
+  flex-direction: row;
+  gap: 1.6em;
+}
+.second3{
+  flex-direction: row;
+  gap: 1.6em;
+}
+.hd{
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  margin-top: -170px;
+  background-size: cover;
+  
+z-index: 1;
+  
+
+
+ 
+  
+  
+
+}
+
+@keyframes button{
+  0%{
+    box-shadow:  0 0 200px whitesmoke ,0 0 100px whitesmoke,0 0 200px whitesmoke;
+  } 10%{
+    box-shadow:  0 0 190px whitesmoke ,0 0 90px whitesmoke,0 0 190px whitesmoke;
+  } 20%{
+    box-shadow:  0 0 180px whitesmoke ,0 0 80px whitesmoke,0 0 180px whitesmoke;
+  } 30%{
+    box-shadow:  0 0 380px whitesmoke ,0 100px 480px whitesmoke,40px 140px 500px whitesmoke;
+  } 40%{
+    box-shadow:  0 0 150px whitesmoke ,0 0 60px whitesmoke,0 0 150px whitesmoke;
+  } 50%{
+    box-shadow:  0 0 380px whitesmoke ,0 100px 480px whitesmoke,40px 140px 500px whitesmoke;
+  } 60%{
+    box-shadow:  0 0 150px whitesmoke ,0 0 50px whitesmoke,0 0 150px whitesmoke;
+  } 70%{
+    box-shadow:  0 0 380px whitesmoke ,0 100px 480px whitesmoke,40px 140px 500px whitesmoke;
+  } 80%{
+    box-shadow:  0 0 170px whitesmoke ,0 0 70px whitesmoke,0 0 170px whitesmoke;
+  } 90%{
+    box-shadow:  0 0 380px whitesmoke ,0 100px 480px whitesmoke,40px 140px 500px whitesmoke;
+  } 100%{
+    box-shadow:  0 0 190px whitesmoke ,0 0 90px whitesmoke,0 0 190px whitesmoke;
+  }
+}
+
